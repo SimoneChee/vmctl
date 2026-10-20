@@ -1,0 +1,39 @@
+# .gitignore for vmctl
+
+# Binaries
+bin/
+vmctl
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+coverage.html
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug output
+debug-*/
+*.log
+
+# Config (keep template, ignore local)
+.vmctl.yaml
+!.vmctl.yaml.example
